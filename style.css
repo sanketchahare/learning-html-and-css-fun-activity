@@ -1,0 +1,240 @@
+/* =========================
+   RESET & GLOBAL STYLES
+   ========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.7;
+  padding: 20px;
+}
+
+/* =========================
+   COMMON HEADINGS
+   ========================= */
+h1 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 25px;
+  color: #0066cc;
+}
+
+/* =========================
+   COMMON ELEMENTS
+   ========================= */
+p {
+  font-size: 16px;
+  max-width: 850px;
+  margin: 12px auto;
+  text-align: center;
+  line-height: 1.9;
+}
+
+hr {
+  width: 80%;
+  margin: 35px auto;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================
+   ABOUT SECTION
+   ========================= */
+h1 + p,
+h1 + p + p,
+h1 + p + p + p {
+  background-color: #ffffff;
+  padding: 22px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+h1 + p:hover,
+h1 + p + p:hover,
+h1 + p + p + p:hover {
+  transform: translateY(-5px);
+}
+
+/* =========================
+   BIRTHDAY INVITE SECTION
+   ========================= */
+.birthday-invite {
+  max-width: 750px;
+  margin: 70px auto;
+  padding: 40px 30px;
+  background: linear-gradient(135deg, #fff1f0, #ffffff);
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.birthday-invite h1 {
+  color: #ff5a5f;
+}
+
+.birthday-invite h2 span {
+  color: #ff5a5f;
+  font-weight: bold;
+}
+
+.birthday-invite ul {
+  list-style: none;
+  padding: 0;
+}
+
+.birthday-invite ul li {
+  background-color: #ffffff;
+  margin: 10px auto;
+  padding: 14px 22px;
+  max-width: 420px;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Map Button */
+.map-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 32px;
+  background-color: #ff5a5f;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.map-btn:hover {
+  background-color: #e14b50;
+  transform: scale(1.05);
+}
+
+/* =========================
+   CONTACT SECTION
+   ========================= */
+.contact {
+  max-width: 750px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  padding: 35px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.address {
+  color: #555;
+  margin-top: 10px;
+}
+
+/* =========================
+   MOVIE SECTION
+   ========================= */
+.movies {
+  max-width: 850px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.movie-card {
+  background-color: #ffffff;
+  margin: 25px auto;
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
+}
+
+.movie-card h3 {
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.movie-card p {
+  color: #555;
+}
+/* =========================
+   PROJECTS SECTION
+   ========================= */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 40px;
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+/* Project card */
+.project-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Project image */
+.project-card img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+/* Project title link */
+.project-card a {
+  text-decoration: none;
+  color: #6a0dad;
+  font-size: 20px;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
